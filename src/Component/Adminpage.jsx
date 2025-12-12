@@ -1,7 +1,7 @@
 
 import { faCar, faSignOutAlt, faUsers } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Customers from './Customers';
 import Home from './Home';
@@ -58,6 +58,18 @@ const Adminpage = () => {
           id: 3, 
           name: "Prime Motors", 
           rating: 6.5, 
+          status: "Active" 
+        },
+        { 
+          id: 4, 
+          name: "Royal Rides", 
+          rating: 8.5, 
+          status: "Active" 
+        },
+        { 
+          id: 4, 
+          name: "Royal Rides", 
+          rating: 8.5, 
           status: "Active" 
         },
         { 
